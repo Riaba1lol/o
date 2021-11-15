@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+.a {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.b {
+  width: 100%;
+}
+.c {
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.336),
+    rgba(0, 0, 0, 0.068)
+  );
+}
+.d {
+  padding-left: 90px;
+  padding-bottom: 80px;
+}
+.e {
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+.row {
+  margin-bottom: 30px;
+}
+.case {
+  color: red;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.data {
+  color: white;
+}
